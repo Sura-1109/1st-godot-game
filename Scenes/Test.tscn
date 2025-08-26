@@ -1,5 +1,20 @@
-[gd_scene format=3 uid="uid://dnnka5th1gldj"]
+[gd_scene load_steps=3 format=3 uid="uid://dnnka5th1gldj"]
+
+[ext_resource type="PackedScene" uid="uid://c2jxj3se56fst" path="res://Scenes/main_character.tscn" id="1_ko2s7"]
+
+[sub_resource type="TileSet" id="TileSet_ko2s7"]
 
 [node name="The game" type="Node2D"]
 
 [node name="Node2D" type="Node2D" parent="."]
+
+[node name="Main character" parent="." instance=ExtResource("1_ko2s7")]
+position = Vector2(34, 36)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(34, 29)
+zoom = Vector2(4, 4)
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_ko2s7")
+format = 2
