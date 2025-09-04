@@ -1,12 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://br4os116rslqc"]
+[gd_scene load_steps=4 format=3 uid="uid://br4os116rslqc"]
 
 [ext_resource type="Texture2D" uid="uid://datqmq21qkhmf" path="res://Assets/Sprites/Skull hero/Hero.png" id="1_82m8y"]
+[ext_resource type="Script" uid="uid://cjq1ylhnjioha" path="res://Scripts/hero_1_player_controller.gd" id="1_qqnhs"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_qqnhs"]
 radius = 8.0
 height = 20.0
 
 [node name="Hero1-Player" type="CharacterBody2D"]
+script = ExtResource("1_qqnhs")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 

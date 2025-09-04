@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://irjnkapet7f3"]
+[gd_scene load_steps=5 format=3 uid="uid://irjnkapet7f3"]
 
 [ext_resource type="Texture2D" uid="uid://ddyd1a6m512a" path="res://Assets/Tilesets/Red underworld cave/cave-platformer-tileset-16x16.png" id="1_vk57k"]
+[ext_resource type="PackedScene" uid="uid://br4os116rslqc" path="res://Scenes/hero_1_player.tscn" id="2_8ffim"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8ffim"]
 texture = ExtResource("1_vk57k")
@@ -171,3 +172,5 @@ sources/0 = SubResource("TileSetAtlasSource_8ffim")
 tile_set = SubResource("TileSet_xfk5q")
 format = 2
 layer_0/tile_data = PackedInt32Array(65533, 196608, 0, 65534, 262144, 0, 65535, 262144, 0, 0, 262144, 0, 1, 262144, 0, 2, 262144, 0, 3, 262144, 0, 4, 262144, 0, 5, 262144, 0, 6, 262144, 0, 7, 262144, 0, 8, 262144, 0, 9, 327680, 0, -65531, 196608, 4, -131067, 196608, 3, -65530, 196608, 4, -131066, 196608, 4, -196602, 196608, 3, -65529, 196608, 4, -131065, 196608, 4, -196601, 196608, 4, -262137, 196608, 3)
+
+[node name="Hero1-Player" parent="." instance=ExtResource("2_8ffim")]
