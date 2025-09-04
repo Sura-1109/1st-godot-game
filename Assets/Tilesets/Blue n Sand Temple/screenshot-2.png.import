@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hedoruwpdv1q"
-path="res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"
+uid="uid://cmyvm38fxb5qh"
+path="res://.godot/imported/screenshot-2.png-9dbce7f4339b62fc528324372d90946f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiny buttons/Tiny Buttons 16x16/Buttons_Square_A-16x16.png"
-dest_files=["res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"]
+source_file="res://Assets/Tilesets/Blue n Sand Temple/screenshot-2.png"
+dest_files=["res://.godot/imported/screenshot-2.png-9dbce7f4339b62fc528324372d90946f.ctex"]
 
 [params]
 

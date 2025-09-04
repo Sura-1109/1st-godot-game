@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://c2jxj3se56fst"]
 
-[ext_resource type="Texture2D" uid="uid://vtr0tb2dw84e" path="res://Assets/Hero.png" id="1_0eyao"]
+[ext_resource type="Texture2D" uid="uid://datqmq21qkhmf" path="res://Assets/Sprites/Skull hero/Hero.png" id="1_0eyao"]
 [ext_resource type="Script" uid="uid://b7l4vlufu32sc" path="res://Scripts/main_character.gd" id="1_11o2n"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_11o2n"]

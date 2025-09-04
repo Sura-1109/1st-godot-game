@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hedoruwpdv1q"
-path="res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"
+uid="uid://blm68vjuu7y0w"
+path="res://.godot/imported/TacticalIcons.png-944991713c05af005cac45b0d8c280ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiny buttons/Tiny Buttons 16x16/Buttons_Square_A-16x16.png"
-dest_files=["res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"]
+source_file="res://Assets/Niche assets/Tactical futuristic enemies n stuff/TacticalIcons.png"
+dest_files=["res://.godot/imported/TacticalIcons.png-944991713c05af005cac45b0d8c280ba.ctex"]
 
 [params]
 

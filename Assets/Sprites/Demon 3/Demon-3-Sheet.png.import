@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hedoruwpdv1q"
-path="res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"
+uid="uid://bv46cwc1kf5b0"
+path="res://.godot/imported/Demon-3-Sheet.png-e0d44075fd0ada751382c6f50e0fce71.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Tiny buttons/Tiny Buttons 16x16/Buttons_Square_A-16x16.png"
-dest_files=["res://.godot/imported/Buttons_Square_A-16x16.png-a1c9fdb2d5188760830ae2c8d7ad2607.ctex"]
+source_file="res://Assets/Sprites/Demon 3/Demon-3-Sheet.png"
+dest_files=["res://.godot/imported/Demon-3-Sheet.png-e0d44075fd0ada751382c6f50e0fce71.ctex"]
 
 [params]
 
