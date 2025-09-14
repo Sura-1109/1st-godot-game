@@ -30,7 +30,8 @@ unique_name_in_owner = true
 transform = Transform3D(1.87658, -0.0452894, -0.40463, 0.0598037, 1.24929, -0.0399507, 0.497844, 0.0206432, 1.53001, 0.382522, -0.128687, -0.414382)
 
 [node name="Marker3D" type="Marker3D" parent="Head/Camera3D"]
-transform = Transform3D(0.984189, 0, -0.177119, 0, 1, 0, 0.177119, 0, 0.984189, 0.421991, -0.0943844, -0.56133)
+unique_name_in_owner = true
+transform = Transform3D(0.984189, 0, -0.177119, 0, 1, 0, 0.177119, 0, 0.984189, 0.427338, -0.0932772, -0.584977)
 
 [node name="Crosshair1" type="TextureRect" parent="."]
 anchors_preset = 8
