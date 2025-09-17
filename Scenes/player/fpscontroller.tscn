@@ -27,11 +27,11 @@ cull_mask = 1048573
 
 [node name="Pistol_Compact_West2" parent="Head/Camera3D" instance=ExtResource("2_u8lga")]
 unique_name_in_owner = true
-transform = Transform3D(1.87658, -0.0452894, -0.40463, 0.0598037, 1.24929, -0.0399507, 0.497844, 0.0206432, 1.53001, 0.382522, -0.128687, -0.414382)
+transform = Transform3D(1.9423866, -0.0014491633, -0.008344367, 0.0020341629, 1.2499996, -0.03353575, 0.010281548, 0.026477749, 1.5827372, 0.08461085, -0.12868702, -0.414382)
 
 [node name="Marker3D" type="Marker3D" parent="Head/Camera3D"]
 unique_name_in_owner = true
-transform = Transform3D(0.984189, 0, -0.177119, 0, 1, 0, 0.177119, 0, 0.984189, 0.427338, -0.0932772, -0.584977)
+transform = Transform3D(0.984189, 0, -0.177119, 0, 1, 0, 0.177119, 0, 0.984189, 0.06276725, -0.064237475, -0.584977)
 
 [node name="Crosshair1" type="TextureRect" parent="."]
 anchors_preset = 8

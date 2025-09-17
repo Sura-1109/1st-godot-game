@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://ckcjhvlovn2xn"]
+[gd_scene load_steps=7 format=3 uid="uid://ckcjhvlovn2xn"]
 
 [ext_resource type="PackedScene" uid="uid://hqxu8xn28nmx" path="res://Scenes/player/fpscontroller.tscn" id="1_aitsa"]
+[ext_resource type="PackedScene" uid="uid://boxnsey1ds5jj" path="res://Scenes/bat.tscn" id="2_iy01a"]
 
 [sub_resource type="Gradient" id="Gradient_aitsa"]
 
@@ -420,7 +421,11 @@ material = SubResource("StandardMaterial3D_4mxh0")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0392451, 0, -0.021543)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.0186341, 0.978444, -0.205669, -0.0882878, 0.206512, 0.974453, 0.995921, -2.22832e-08, 0.0902328, -1.13545, 3.808, 0)
+transform = Transform3D(-0.088025, 0.363397, 0.857918, -0.0235399, -1.35886, 0.22943, 1.00569, 3.92279e-07, 0.080461, -1.13545, 3.808, 0)
+shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_jx03c")
+
+[node name="bat" parent="." instance=ExtResource("2_iy01a")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -7.20555, 1.40766, -0.0556733)

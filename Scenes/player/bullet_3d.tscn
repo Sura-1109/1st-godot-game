@@ -10,9 +10,12 @@ radius = 0.00224692
 top_level = true
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(15.8825, 0, 0, 0, 17.38, 0, 0, 0, 10.5697, 0, 0, 0.000154465)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0.000154465)
 shape = SubResource("SphereShape3D_48hb5")
 
 [node name="Projectile3D" parent="." instance=ExtResource("1_vq1i8")]
 transform = Transform3D(0.338422, 0, 0, 0, 0.338422, 0, 0, 0, 0.338422, 0, 0, 0)
 script = ExtResource("2_48hb5")
+
+[connection signal="area_shape_entered" from="." to="Projectile3D" method="_on_bullet_3d_area_shape_entered"]
+[connection signal="body_entered" from="." to="Projectile3D" method="_on_bullet_3d_body_entered"]
