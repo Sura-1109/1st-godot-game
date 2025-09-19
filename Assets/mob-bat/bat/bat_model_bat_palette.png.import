@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dagio1y1jn6tg"
 path.s3tc="res://.godot/imported/bat_model_bat_palette.png-93523846dd160b8c01ceeb27fb84f89c.s3tc.ctex"
+path.etc2="res://.godot/imported/bat_model_bat_palette.png-93523846dd160b8c01ceeb27fb84f89c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Assets/mob-bat/bat/bat_model_bat_palette.png"
-dest_files=["res://.godot/imported/bat_model_bat_palette.png-93523846dd160b8c01ceeb27fb84f89c.s3tc.ctex"]
+dest_files=["res://.godot/imported/bat_model_bat_palette.png-93523846dd160b8c01ceeb27fb84f89c.s3tc.ctex", "res://.godot/imported/bat_model_bat_palette.png-93523846dd160b8c01ceeb27fb84f89c.etc2.ctex"]
 
 [params]
 
